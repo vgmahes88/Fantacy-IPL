@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bracket</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+  <script src="js/jquery.bxslider.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script>
+		$(document).ready(function(){
+			$('.nav li a').click(function()
+			{
+			$('.nav li a').removeClass('active');
+			$(this).addClass('active');
+			})
+			
+		});
+   </script>
+<script type="text/javascript">
+	
+	      $(document).ready(function(){
+		  $('.bxslider').bxSlider({
+			pager:false,
+			nextText: 'Onward →',
+            prevText: '← Go back'
+		  });
+		  $(".menu_bar").click(function(){
+				$(".fantacy_htab").slideToggle();
+			});
+		  });
+	
+   </script>
+   
+   <link rel="stylesheet" href="css/fantacy.css"/>
+</head>
+<body>
+	<div class="container fantacy_cc">
+		<div class="row fty-header">
+	
+		<div class="col-md-2 col-sm-2 col-xs-12">
+			<div class="fantacy_logo" align="center">
+				<img src="img/logo.png"/>
+			</div>
+		</div>
+		<div class="col-md-9 col-sm-9 col-xs-12 col-lg-9 fantacy_clc frmenu">
+		  
+		  <div class="fantacy_head" align="right">
+			<h2>Play our fantacy to be awinner</h2>
+		  </div>
+		   <div class="menu_icon">
+				<i class="fa fa-bars menu_bar" aria-hidden="true"></i>
+			</div>
+		  <div class="fantacy_menu pull-right">
+			
+			<div class="fantacy_htab">
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+				<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Fixtures</a></li>
+				<li role="presentation"><a href="#stats" aria-controls="stats" role="tab" data-toggle="tab">Stats</a></li>
+				<li role="presentation" class="disabled disabledTab"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Player</a></li>
+				<li role="presentation" class="disabled disabledTab"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Photo Gallery</a></li>
+				<li role="presentation" class="disabled disabledTab"><a href="#pnow" aria-controls="pnow" role="tab" data-toggle="tab">PalyNow</a></li>
+			  </ul>
+
+			 
+
+			</div>
+			
+		  </div>
+    </div>
+	 <!-- Tab panes -->
+			  
+	<div class="col-md-1 col-sm-1 col-xs-1 col-lg-1">
+	
+	</div>
+  </div>
+  <div class="row">
+	<div class="col-md-12">
+		<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="home">
+						<div class="row fantacy_play_round">
+	<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
+		<div class="round_details" align="left">
+			<h3>Deadline round 7</h3>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
+		<div class="fantacy_time" align="center">
+			<table align="center">
+				<tr>
+					<td>Day</td>
+					<td>Hours</td>
+					<td>mins</td>
+					<td>sec</td>
+				</tr>
+				<tr>
+					<td>
+						<span>05</span>
+					</td>
+					<td>
+						<span>23</span>
+					</td>
+					<td>
+						<span>35</span>
+					</td>
+					<td>
+						<span>06</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
+		<div class="fantacy_play" align="center">
+			<button class="btn btn-danger">play Now !</button>
+		</div>
+	</div>
+  </div>
+  <div class="row fantacy_pfrank">
+	<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
+		<div class="play_profile">
+			<table>
+				<tr>
+					<td><img src="img/player-icon.png" class="fprofile_img"/></td>
+					<td>
+						<div class="rank_dt" align="center">
+							<h3>Rank</h3>
+							<h2>32</h2>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="col-md-8 col-sm-8 col-xs-12 col-lg-8">
+		<div class="rank_player_list">
+			<table>
+				<tr>
+					<td>Round Rank</td>
+					<td>14</td>
+					<td>Round pts</td>
+					<td class="fpts_hlt">124</td>
+				</tr>
+				<tr>
+					<td>Average pts</td>
+					<td>14</td>
+					<td>Highest Pts</td>
+					<td>124</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+  </div>
+  <div class="bracket_cc">
+	
+		<div class="row fantacy_box_shad">
+	
+		<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+			<div class="braket_vt_details">
+				<h4>Wednesday April 5th 2017, Hyderabad</h4>
+			</div>
+			<div class="row main_row_m">
+				<div class="col-md-8 col-sm-8 col-lg-8 col-xs-12">
+					<div class="row team_h" align="center">
+						<div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+							<div class="dbt_name">
+                                <h4>Mumbai Indians [1]</h4>
+                            </div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 fixtrs_tlogom">
+							<div class="bt_tlogo">
+                                    <img src="img/munmbai-indians.png"/>
+                            </div>
+						</div>
+					</div>
+					<div class="row team_h" align="center">
+						<div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+							<div class="dbt_name">
+                                <h4>Mumbai Indians [1]</h4>
+                            </div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 fixtrs_tlogom">
+							<div class="bt_tlogo">
+                                    <img src="img/munmbai-indians.png"/>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 left_arrow_pad" align="center">
+					<div class="fixrs_team_arrow">
+						 <img src="img/team_arrow.png"/>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 fixrs_qstnb_c" align="center">
+					<div class="fixrs_qstnb">
+						<h4><img src="img/mobile_qs.png"/></h4>
+					</div>
+				</div>
+			</div>
+			<div class="braket_vt_details">
+				<h4>Wednesday April 5th 2017, Hyderabad</h4>
+			</div>
+			<div class="row main_row_m">
+				<div class="col-md-8 col-sm-8 col-lg-8 col-xs-12">
+					<div class="row team_h" align="center">
+						<div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+							<div class="dbt_name">
+                                <h4>Mumbai Indians [1]</h4>
+                            </div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 fixtrs_tlogom">
+							<div class="bt_tlogo">
+                                    <img src="img/munmbai-indians.png"/>
+                            </div>
+						</div>
+					</div>
+					<div class="row team_h" align="center">
+						<div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+							<div class="dbt_name">
+                                <h4>Mumbai Indians [1]</h4>
+                            </div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 fixtrs_tlogom">
+							<div class="bt_tlogo">
+                                    <img src="img/munmbai-indians.png"/>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 left_arrow_pad" align="center">
+					<div class="fixrs_team_arrow">
+						 <img src="img/team_arrow.png"/>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 fixrs_qstnb_c" align="center">
+					<div class="fixrs_qstnb">
+						<h4><img src="img/mobile_qs.png"/></h4>
+					</div>
+				</div>
+			</div>
+			<div class="row main_row_m">
+				<div class="col-md-8 col-sm-8 col-lg-8 col-xs-12">
+					<div class="row team_h" align="center">
+						<div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+							<div class="dbt_name">
+                                <h4>Mumbai Indians [1]</h4>
+                            </div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 fixtrs_tlogom">
+							<div class="bt_tlogo">
+                                    <img src="img/munmbai-indians.png"/>
+                            </div>
+						</div>
+					</div>
+					<div class="row team_h" align="center">
+						<div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+							<div class="dbt_name">
+                                <h4>Mumbai Indians [1]</h4>
+                            </div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4 fixtrs_tlogom">
+							<div class="bt_tlogo">
+                                    <img src="img/munmbai-indians.png"/>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 left_arrow_pad" align="center">
+					<div class="fixrs_team_arrow">
+						 <img src="img/team_arrow.png"/>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 fixrs_qstnb_c" align="center">
+					<div class="fixrs_qstnb">
+					
+							<h4 class="qst_bg"><img src="img/mobile_qs.png"/></h4>
+				
+					</div>
+				</div>
+			</div>
+			
+		</div>		
+		
+	</div>
+	
+  </div>
+				
+				
+				
+				
+				
+		</div>
+		<div role="tabpanel" class="tab-pane" id="stats">
+			
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+				<div class="fantacy_stats">
+					<table class="sts_tpl">
+						<tr>
+							<td>#</td>
+							<td>team</td>
+							<td></td>
+							<td>M</td>
+							<td>w</td>
+							<td>L</td>
+							<td>nrr</td>
+							<td>pts</td>
+							<!--<td>nr</td>
+							<td>pts</td>
+							<td>nrr</td>
+							<td>last 5</td>-->
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/lions.png"/>
+								</div>
+							</td>
+							<td>
+								<a>Lions</a>
+							</td>
+							<td>14</td>
+							<td>9</td>
+							<td>5</td>
+							<td>-0.374</td>
+							<td>18</td>
+							<!--<td>14</td>
+							<td>0.120</td>
+							<td>
+								<div class="stats_last_5">
+									<a><img src="img/lt-1.png"/></a>
+									<a><img src="img/lt-1.png"/></a>
+									<a><img src="img/lt-1.png"/></a>
+									<a><img src="img/lt-1.png"/></a>
+									<a><img src="img/lt-1.png"/></a>
+								</div>
+								
+							</td> -->
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/rcb.png"/>
+								</div>
+							</td>
+							<td><a>Royal Challengers</a></td>
+							<td>14</td>
+							<td>8</td>
+							<td>6</td>
+							<td>+0.932</td>
+							<td>16</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/sunrisers_hyd.png"/>
+								</div>
+							</td>
+							<td><a> Sunrisers</a></td>
+							<td>14</td>
+							<td>8</td>
+							<td>6</td>
+							<td>+0.245</td>
+							<td>16</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/trinbango.png"/>
+								</div>
+							</td>
+							<td><a>Knight Riders</a></td>
+							<td>14</td>
+							<td>8</td>
+							<td>6</td>
+							<td>+0.106</td>
+							<td>16</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/munmbai-indians.png"/>
+								</div>
+							</td>
+							<td><a>Indians</a></td>
+							<td>14</td>
+							<td>7</td>
+							<td>7</td>
+							<td>-0.146</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/delhi.png"/>
+								</div>
+							</td>
+							<td><a> Daredevils</a></td>
+							<td>14</td>
+							<td>7</td>
+							<td>7</td>
+							<td>-0.155</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/rising_pune.png"/>
+								</div>
+							</td>
+							<td><a>Supergiants</a></td>
+							<td>14</td>
+							<td>5</td>
+							<td>9</td>
+							<td>+0.015</td>
+							<td>10</td>
+						</tr>
+						
+						<tr>
+							<td>8</td>
+							<td>
+								<div class="fstats_logo">
+									<img src="img/kings_x1.png"/>
+								</div>
+							</td>
+							<td><a> Kings XI</a></td>
+							<td>14</td>
+							<td>4</td>
+							<td>10</td>
+							<td>-0.646</td>
+							<td>8</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="tournament_head">
+				<h3>Tournament Stats</h3>
+			</div>
+			<div class="fansts_head">
+				<h3>Batting Statistics</h3>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs">
+						<h3>Orange Cap</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs most_sixes">
+						<h3>Most Sixes</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs most_sixes most-runs_scored">
+						<h3>Most Sixes</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs most_sixes most-runs_scored best_strike_rate">
+						<h3>Most Sixes</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="fansts_head">
+				<h3>Bowling Statistics</h3>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs highest_wktt">
+						<h3>Orange Cap</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs most_sixes">
+						<h3>Most Sixes</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs most_sixes most-runs_scored">
+						<h3>Most Sixes</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 fs_padd_c">
+				<div class="Stats_tpl_Des">
+					<div class="stats_head most_runs most_sixes most-runs_scored best_strike_rate">
+						<h3>Most Sixes</h3>
+					</div>
+					<table>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+						<tr>
+							<td>Gautham gambhir</td>
+							<td>473 runs</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div role="tabpanel" class="tab-pane" id="settings">
+		<div class="row fixture_rb">
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12" align="right">
+				<div class="cly_left_team">
+					<h4><span>Sunrisers Hyderabad</span></h4>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="row cly_team_dt" align="center">
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="fleft_tlogo" align="center">
+							<img src="img/fixture_left.png"/>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<div class="fix_versus" align="center">
+							<h3>V</h3>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="frigt_tlogo" align="center">
+							<img src="img/fixtures_right.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+						<div class="f_venue_dt" align="center">
+							<h4>SUNRISERS HYDERABED WON BY 5 WICKETS</h4>
+							<h4>Wednesday April 5th 2017, Hyderabad</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="cly_right_team">
+				
+					<h4><span>Royal Challengers Bangalore</span></h4>
+				</div>
+			</div>
+	 </div>
+     <div class="row fixture_rb">
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12" align="right">
+				<div class="cly_left_team">
+					<h4><span>Sunrisers Hyderabad</span></h4>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="row cly_team_dt" align="center">
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="fleft_tlogo" align="center">
+							<img src="img/fixture_left.png"/>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<div class="fix_versus" align="center">
+							<h3>V</h3>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="frigt_tlogo" align="center">
+							<img src="img/fixtures_right.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+						<div class="f_venue_dt" align="center">
+							<h4>SUNRISERS HYDERABED WON BY 5 WICKETS</h4>
+							<h4>Wednesday April 5th 2017, Hyderabad</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="cly_right_team">
+					<h4><span>Royal Challengers Bangalore</span></h4>
+				</div>
+			</div>
+	 </div>
+	 <div class="row fixture_rb">
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12" align="right">
+				<div class="cly_left_team">
+					<h4><span>Sunrisers Hyderabad</span></h4>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="row cly_team_dt" align="center">
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="fleft_tlogo" align="center">
+							<img src="img/fixture_left.png"/>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<div class="fix_versus" align="center">
+							<h3>V</h3>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="frigt_tlogo" align="center">
+							<img src="img/fixtures_right.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+						<div class="f_venue_dt" align="center">
+							<h4>SUNRISERS HYDERABED WON BY 5 WICKETS</h4>
+							<h4>Wednesday April 5th 2017, Hyderabad</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="cly_right_team">
+					<h4><span>Royal Challengers Bangalore</span></h4>
+				</div>
+			</div>
+	 </div>
+	 <div class="row fixture_rb">
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12" align="right">
+				<div class="cly_left_team">
+					<h4><span>Sunrisers Hyderabad</span></h4>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="row cly_team_dt" align="center">
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="fleft_tlogo" align="center">
+							<img src="img/fixture_left.png"/>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<div class="fix_versus" align="center">
+							<h3>V</h3>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="frigt_tlogo" align="center">
+							<img src="img/fixtures_right.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+						<div class="f_venue_dt" align="center">
+							<h4>SUNRISERS HYDERABED WON BY 5 WICKETS</h4>
+							<h4>Wednesday April 5th 2017, Hyderabad</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="cly_right_team">
+					<h4><span>Royal Challengers Bangalore</span></h4>
+				</div>
+			</div>
+	 </div>
+	 <div class="row fixture_rb">
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12" align="right">
+				<div class="cly_left_team">
+					<h4><span>Sunrisers Hyderabad</span></h4>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="row cly_team_dt" align="center">
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="fleft_tlogo" align="center">
+							<img src="img/fixture_left.png"/>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
+						<div class="fix_versus" align="center">
+							<h3>V</h3>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-5 col-lg-5 col-xs-5">
+						<div class="frigt_tlogo" align="center">
+							<img src="img/fixtures_right.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+						<div class="f_venue_dt" align="center">
+							<h4>SUNRISERS HYDERABED WON BY 5 WICKETS</h4>
+							<h4>Wednesday April 5th 2017, Hyderabad</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+				<div class="cly_right_team">
+					<h4><span>Royal Challengers Bangalore</span></h4>
+				</div>
+			</div>
+	 </div>
+	</div>	
+		
+	</div>
+  </div>
+  
+  
+  
+</div>
+</body>

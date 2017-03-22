@@ -1,0 +1,1319 @@
+@font-face {
+  font-family: 'ArialMT';
+  src: url('../fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/ArialMT.woff') format('woff'), 
+	   url('../fonts/ArialMT.ttf')  format('truetype'), 
+	   url('../fonts/ArialMT.svg#ArialMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial-BoldMT';
+  src: url('../fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Arial-BoldMT.woff') format('woff'), 
+  url('../fonts/Arial-BoldMT.ttf')  format('truetype'), 
+  url('../fonts/Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('../fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'),  
+	   url('../fonts/HelveticaNeue-Light.woff') format('woff'), 
+	   url('../fonts/HelveticaNeue-Light.ttf')  format('truetype'), 
+	   url('../fonts/HelveticaNeue-Light.svg#HelveticaNeue-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HemiHeadRg-BoldItalic';
+  src: url('../fonts/HemiHeadRg-BoldItalic.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/HemiHeadRg-BoldItalic.woff') format('woff'), 
+	   url('../fonts/HemiHeadRg-BoldItalic.ttf')  format('truetype'), 
+       url('../fonts/HemiHeadRg-BoldItalic.svg#HemiHeadRg-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),  
+	   url('../fonts/Futura-Bold.woff') format('woff'), 
+	   url('../fonts/Futura-Bold.ttf')  format('truetype'), 
+	   url('../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	font-family: 'ArialMT';
+}
+.fantacy_cc
+{
+	width:100%;
+	margin:0px;
+	background-image:url("../img/body_bg.png");
+	background-size:100% 100%;
+}
+.active
+{
+ background:#000 !important;
+ color:#
+}
+.fantacy_clc
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+.fty-header
+{
+	background-image:url("../img/header_bg.png");
+	background-size:100% 100%;
+}
+.fantacy_menu
+{
+	top:26px;
+	position: relative;
+	left:1.3%;
+}
+.fantacy_menu .navbar-default
+{
+	background:transparent;
+	border:none;
+}
+.fantacy_menu .navbar-default .navbar-nav > li 
+{
+	padding:14px;
+}
+.fantacy_menu .navbar-default .navbar-nav > li > a
+{
+	color:#000;
+	text-transform:uppercase;
+	font-family: 'ArialMT';
+	font-size:17px;
+	font-weight:bold;
+}
+.fantacy_head h2
+{
+	color:#fff;
+	font-family: 'HemiHeadRg-BoldItalic';
+	font-size:45px;
+	text-transform:uppercase;
+	margin-top:34px;
+}
+.fantacy_play button
+{
+	font-family: 'Arial-BoldMT';
+	text-transform: capitalize;
+	font-size: 24px;
+	background: #CB0000;
+	width: 53%;
+}
+.frmenu
+{
+	/*right:3%;
+	position:relative;*/
+}
+.round_details h3
+{
+	text-transform: uppercase;
+	color: #fff;
+	width: 50%;
+	text-align: center;
+	font-family: 'Arial-BoldMT';
+	font-size: 37px;
+}
+.fantacy_play_round
+{
+	background:#484D53;
+	padding-bottom: 20px;
+	
+}
+.fantacy_time table 
+{
+	width:100%;
+}
+.fantacy_play
+{
+	margin-top:6%;
+}
+.fantacy_time table  tr{
+	line-height:50px;
+}
+.fantacy_time table  tr td
+{
+	color:#fff;
+	font-size:17px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+}
+.fantacy_time table  tr:nth-child(2) td span
+{
+	background:#111A21;
+	padding:10px;
+	font-family: 'Arial-BoldMT';
+}
+.play_profile table
+{
+	width:100%;
+}
+.play_profile table tr td:nth-child(1)
+{
+  width:10%;
+}
+.rank_dt
+{
+	right:25%;
+	position:relative;
+}
+.rank_dt h2
+{
+	font-size:75px;
+}
+.rank_dt h3,.rank_dt h2
+{
+	margin-top: 0px;
+	text-transform: uppercase;
+	color: #BB181A;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.rank_player_list table{
+	width:100%;
+}
+.fpts_hlt
+{
+	color:#BB181A !important;
+}
+.fprofile_img
+{
+	/*height:105px;*/
+}
+.rank_player_list table tr
+{
+	line-height:50px;
+}
+.rank_player_list table tr td
+{
+	font-family: 'Arial-BoldMT';
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+}
+.fantacy_pfrank
+{
+	padding-bottom:10px;
+}
+.fantacy_matdt
+{
+	clear:both;
+}
+.fantacy_innings_dlt table,
+.fantacy_innings_drt table
+{
+	border-collapse:separate;
+	width:80%;
+	padding-bottom: 20px;
+}
+
+.fantacy_innings_dlt table tr td,
+.fantacy_innings_drt table tr td
+{
+	padding:5px;
+}
+.fantacy_innings_dlt table tr td:nth-child(1),
+.fantacy_innings_dlt table tr td:nth-child(2)
+{
+	text-align:right;
+}
+
+.fantacy_innings_dlt table tr td:nth-child(2) img
+{
+	display:initial;
+}
+.fantacy_innings_dlt table tr td,
+.fantacy_innings_drt table tr td
+{
+	font-family: 'ArialMT';
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.fantacy_matdt
+{
+	background:#fff;
+	margin: 3px;
+}
+.fs_summary
+{
+	background:#CFD0D0;
+	margin-bottom: 10px;
+}
+.fcy_first_lefteam1
+{
+	background:#F8D75C;
+}
+.fcy_first_lefteam2
+{
+	background:#E4B506;
+}
+.fcy_first_rightteam1
+{
+	background:#CD0904;
+}
+.fcy_first_rightteam2
+{
+	background:#E4B506;
+}
+.team_cs
+{
+	width:8.66%;
+}
+.team_sh_t
+{
+	width:45.66%;
+}
+.fmatch_info h3
+{
+	text-transform:uppercase;
+}
+.fantacy_slide_cc
+{
+	width:100%;
+}
+.fantacy_time h3
+{
+	
+	font-size: 21px;
+	font-weight: bold;
+}
+.roundc_head
+{
+	background:#F8D75C;
+}
+.roundc_head h3
+{
+	padding:10px;
+	color:#000;
+	text-transform:uppercase;
+	font-family: 'ArialMT';
+	text-align:center;
+	font-weight:bold;
+}
+.slide .bx-wrapper
+{
+	border:0px !important;
+	box-shadow:none !important;
+}
+.slide .bx-wrapper .bx-controls-direction a {
+	top:-4% !important;
+}
+.mainbox_color
+{
+	background: #f8d75c;
+	margin-bottom: 10px;
+}
+.qstn
+{
+	width: 100px;
+	height: 100px;
+	background: #ccc;
+	margin-top: 9%;
+	padding-top: 4%;
+}
+.qstn2
+{
+	margin-top: 15% !important;
+}
+.qstn font
+{
+	font-size: 50px;
+	text-align: center;
+	
+}
+.fantacy_box_shad
+{
+	background: #BFC0C0;
+	margin: 10px;
+}
+.fbx_cc
+{
+	width:100%;
+}
+.fancy_box_team table
+{
+	width:100%;
+	margin-bottom: 5px;
+}
+.fancy_box_team table tr
+{
+	background:#F8D75C;
+}
+.fancy_box_team table tr td:nth-child(2)
+{
+	text-align: right;
+	padding-right: 25px;
+}
+.fb_logo_team_logo img
+{
+	text-align:right;
+}
+.team_name h3
+{
+	text-transform: uppercase;
+	font-family: 'ArialMT';
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.fant_sb
+{
+	background:#ECECEC;
+	padding-left:0px;
+	padding-right:0px;
+}
+.fanpsc_tpl table{
+	width:100%;
+	border-collapse:separate;
+	
+}
+.fanpsc_tpl table tr
+{
+	line-height:40px;
+	background:#FFFFFF;
+}
+.fanpsc_tpl > table > tbody > tr > td:nth-child(1) 
+{
+	padding-left:0px;
+}
+.fanpsc_tpl > table > tbody > tr > td:nth-child(3),
+.fanpsc_tpl > table > tbody > tr > td:nth-child(4)
+{
+	background: #d2eaea99;
+	border-bottom: 10px solid #D1EAEA !important;
+}
+.fanpsc_tpl > table > tbody > tr:last-child  > td:nth-child(3),
+.fanpsc_tpl > table > tbody > tr:last-child  > td:nth-child(4),
+.fanpsc_tpl > table > tbody > tr:last-child > td:nth-child(5),
+.fanpsc_tpl > table > tbody > tr:last-child > td:nth-child(6)
+{
+	border:none !important;
+}
+.fanpsc_tpl > table > tbody > tr > td:nth-child(5),
+.fanpsc_tpl > table > tbody > tr > td:nth-child(6)
+{
+	background:#d4fcfc;
+	border-bottom: 10px solid #bfe7e7 !important;
+}
+
+.fanpsc_tpl > table > tbody > tr:nth-child(1) 
+{
+	background:#D9D9DB;
+}
+.fanpsc_tpl table tr th
+{
+	text-transform:uppercase;
+	font-size:19px;
+}
+.fanpsc_tpl table tr td
+{
+	border-bottom: 10px solid #eaeaea;
+	font-size:17px;
+	font-weight:bold;
+}
+.fanpsc_tpl table tr th,
+.fanpsc_tpl table tr td
+{
+	text-align:center;
+	text-transform:uppercase;
+}
+.fanpsc_tpl table tr td:nth-child(2),
+.fanpsc_tpl table tr th:nth-child(2)
+{
+	text-align:left !important;
+}
+.bt_team_A,
+.bt_team_B
+{
+	width:100%;
+}
+.bt_team_A tr,
+.bt_team_B tr
+{
+	background:#F9D75C;
+	border-bottom:5px solid #BEBFC1;
+}
+.bt_rightpad_r
+{
+	padding-right:0px;
+}
+.bt_leftpad_r
+{
+	padding-left:0px;
+}
+.bt_team_A tr td,
+.bt_team_B tr td
+{
+	text-transform:uppercase;
+}
+.bt_team_A tr td:nth-child(1),
+.bt_team_B tr td:nth-child(1)
+{
+	width:85%;
+	text-align:center;
+}
+.bt_team_A tr td:nth-child(2),
+.bt_team_B tr td:nth-child(2)
+{
+	width:15%;
+	text-align:center;
+}
+.bt_team_details
+{
+	background-image:url("../img/bt_team_info.png");
+	background-size:100% 100%;
+	width: 100px;
+	height: 100px;
+	margin-top:38px;
+
+}
+.bracket_cc
+{
+	background:#E9E9E9;
+	padding:1px;
+}
+.bt_team_details h4
+{
+	text-align:center;
+}
+.bt_team_arrow
+{
+	margin-top:51px;
+}
+.braket_vt_details
+{
+	height:19.8px;
+}
+.bt_team_arrow img
+{
+	height:75px;
+}
+.braket_twt
+{
+	background-image:url("../img/bg2.jpg");
+	background-size:100% 100%;
+	padding: 10px;
+	margin: 10px;
+}
+.bt_arb
+{
+	width: 11%;
+}
+.braket_vt_details h4
+{
+	margin-top:2px;
+	margin-bottom:2px;
+	text-transform:uppercase;
+
+}
+.bt_tlogo
+{
+	height:70px;
+	vertical-align:middle;
+}
+.bt_tlogo img
+{
+	height:100%;
+}
+.bt_name h4
+{
+	font-weight:bold;
+}
+.login_container
+{
+	width:100%;
+}
+.login_container
+{
+	background-image:url("../img/login_bg.png");
+	background-size:100% 100%;
+}
+
+.cricketology_head h2
+{
+	font-family: 'Futura-Bold';
+	text-transform:uppercase;
+	font-size:70px;
+	font-weight:bold;
+	color:#fff;
+}
+.login_mr
+{
+	margin-top:5%;
+	margin-bottom:2%;
+}
+.left_h img,
+.right_h img
+{
+	width:100%;
+}
+.choose_wnner_bg
+{
+	background-image:url("../img/choose_winner.png");
+	background-size:100% 100%;
+}
+.be_wnner_bg
+{
+	background-image:url("../img/to_be_winner.png");
+	background-size:100% 100%;
+}
+.choose_winner h3
+{
+	font-family: 'Futura-Bold';
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	font-size:70px;
+	text-shadow:2px 2px 2px #000;
+	text-align:right;
+	margin-top:0px;
+	margin-right: 4%;
+}
+.be_winner h3
+{
+	font-family: 'Futura-Bold';
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	font-size:70px;
+	text-shadow:2px 2px 2px #000;
+	text-align:left;
+	margin-top:0px;
+	margin-left: 4%;
+	
+}
+.login_mr
+{
+	
+}
+.login_snup
+{
+	background:#FE0000;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:36px;
+}
+.login_snup:hover
+{
+	background:#FE0000;
+	text-transform:uppercase;
+	color:#fff;
+	opacity:0.9;
+}
+.play_login
+{
+	
+	text-transform:uppercase;
+	background:#F8F400;
+	font-size:35px;
+	color:#000;
+}
+.play_login:hover
+{
+	background:#F8F400;
+	color:#000;
+	opacity:0.9;
+}
+.playing_ns,.playing_su
+{
+	margin-bottom: 80px;
+}
+.playing_ns h1,
+.playing_su h1
+{
+	color:#EAE605;
+	font-size:40px;
+	letter-spacing:5px;
+	font-weight:bold;
+	font-family: 'Futura-Bold';
+	text-align: center;
+	text-transform:uppercase;
+}
+.playing_su h1
+{
+	color:#fff;
+}
+.log_pad_left
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+/*Stats Page Css*/
+	.fantacy_statcc
+	{
+		
+		width:1200px;
+		margin:0 auto;
+		background-image:url("../img/body_bg.png");
+		background-size:100% 100%;
+	}
+	.sts_tpl tr td
+	{
+		text-transform:uppercase;
+	}
+	.sts_tpl
+	{
+		width:100%;
+	}
+	.sts_tpl tr
+	{
+		line-height:50px;
+		background:#e8e8e8;
+		border-bottom:1px solid #ccc;
+	}
+	.sts_tpl tr:nth-child(1)
+	{
+		background:#fff !important;
+		border-bottom:1px solid #ccc;
+	}
+	.sts_tpl tr td
+	{
+		text-align:center;
+		font-size:16px;
+		font-weight:bold;
+	}
+	.sts_tpl tr td:nth-child(2)
+	{
+		width:8%;
+	}
+	.sts_tpl tr td:nth-child(3)
+	{
+		width:30%;
+		text-align:left;
+	}
+	.sts_tpl tr td a:hover
+	{
+		text-decoration:none;
+		outline:none;
+	}
+	.sts_tpl tr td a
+	{
+		color:#000;
+		outline:none;
+	}
+	
+	.fstats_logo img
+	{
+		width:30px;
+		height:30px;
+	}
+	.fantacy_stats
+	{
+		margin-bottom:10px;
+	}
+	.menu_bar
+	{
+		display:none;
+	}
+	.tournament_head
+	{
+		background:#f8d75c;
+		
+	}
+	.tournament_head h3{
+		text-transform: uppercase;
+		text-align: center;
+		padding: 8px;
+		font-size: 35px;
+		font-family: 'Arial-BoldMT';
+		/*margin-bottom:5px;
+		margin-top:5px;*/
+	}
+	.fansts_head
+	{
+		background:#454545;
+	}
+	.fansts_head h3
+	{
+		text-transform: uppercase;
+		text-align: center;
+		padding: 8px;
+		font-size: 35px;
+		font-family: 'Arial-BoldMT';
+		color:#fff;
+		/*margin-bottom:5px;
+		margin-top:5px;*/
+	}
+	.fs_padd_c
+	{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	.most_runs
+	{
+		background:#e8641b;
+	}
+	.most_sixes
+	{
+		background:#009f3c;
+	}
+	.most-runs_scored
+	{
+		background:#6e097a;
+	}
+	.best_strike_rate
+	{
+		background:#163eb0;
+	}
+	.highest_wktt
+	{
+		background:#b0161d;
+	}
+	.stats_head h3
+	{
+		padding:5px;
+		text-align:center;
+		color:#fff;
+		text-transform:uppercase;
+		font-weight:bold;
+		 font-family: 'Arial-BoldMT';
+		margin-bottom: 0px;
+		 	/*margin-top: 5px;*/
+	}
+	.Stats_tpl_Des table{
+		width:100%;
+		background:#fff;
+	}
+	.Stats_tpl_Des table tr
+	{
+		line-height:40px;
+	}
+	.Stats_tpl_Des table tr td
+	{
+		text-transform:uppercase;
+		text-align:center;
+		font-size:15px;
+		font-family: 'ArialMT';
+		color:#454545;
+		font-weight:bold;
+	}
+	.Stats_tpl_Des table tr td:nth-child(1)
+	{
+		text-align:left !important;
+		padding-left:15px;
+	}
+	.tab-content .active
+	{
+		background:transparent !important;
+	}
+	.fantacy_htab .nav-tabs
+	{
+	  border-bottom:none !important;
+	  padding:10px;
+	  
+	}
+	
+	.fantacy_htab ul li.active,
+	.nav-tabs > li.active > a
+	{
+		background:#f30c0c !important;
+		color: #fff !important;
+	}
+	.fantacy_htab ul li.active a
+	{
+		border:none !important;
+	}
+	.fantacy_htab ul li a
+	{
+		text-transform:uppercase;
+		font-weight:bold;
+		font-size:18px;
+		color:#000;
+		
+	}
+	.fantacy_htab .nav > li
+	{
+		    border-radius: 0px;
+		outline: none;
+		border: 0px;
+		margin: 0px;
+		background: #fff;
+		border-right: 1px solid #5f5555;
+	}
+	.fantacy_htab .nav > li > a {
+		padding: 12px 22px;
+	}
+	.team_h
+	{
+		background:#F9D75C;
+		border-bottom:6px solid #bfc0c0;
+	}
+	.fantacy_box_shad
+	{
+		border-bottom: 6px solid #fff;
+	}
+	.fixrs_qstnb,.fixrs_team_arrow
+	{
+	  height: 140px;
+	vertical-align: middle;
+	display: table-cell;
+	}
+	.left_arrow_pad
+	{
+		padding-left:0px;
+	}
+	.main_row_m
+	{
+		width:900px;
+		margin:0 auto;
+	}
+	.fixrs_qstnb_c
+	{
+		background: #ccc;
+	}
+	.dbt_name h4
+	{
+		vertical-align: middle;
+		font-size: 25px;
+		margin-top: 10px;
+		top: 13px;
+		position: relative;
+	}
+	.fantacy_cc
+	{
+		width:1200px;
+		margin:0 auto;
+	}
+	.cly_left_team h4,
+	.cly_right_team h4
+	{
+		text-transform:uppercase;
+	}
+	.cly_left_team,
+	.cly_right_team
+	{
+		    height: 123px;
+		vertical-align: middle;
+		display: table-cell;
+	}
+	.fleft_tlogo,
+	.frigt_tlogo,
+	.fix_versus
+	{
+		height: 84px;
+		vertical-align: middle;
+		display: table-cell;
+	}
+	.cly_left_team h4,
+	.cly_right_team h4
+	{
+	  font-size:18px;
+	  font-weight:bold;
+	}
+	
+	.fixture_rb
+	{
+	 background:#fff;
+	 box-shadow:4px 4px 4px 4px #ccc;
+	 margin-bottom:10px;
+	 margin:10px;
+	}
+	.f_venue_dt h4
+	{
+	 text-transform:uppercase;
+	}
+	.f_venue_dt h4
+	{
+		    font-size: 14px;
+			font-weight: bold;
+	}
+	.cly_right_team
+	{
+	 
+	}
+	
+	
+@media screen and (min-width:320px) and (max-width:649px)
+{
+    .team_sh_t {
+    width: 41.66%;
+	}
+	.team_cs
+	{
+		width:16.66%;
+	}
+	.fantacy_cc
+	{
+		width:100%;
+	}
+	.fantacy_innings_dlt table tr td, .fantacy_innings_drt table tr td {
+		font-size:6px;
+	}
+	.fantacy_time h3
+	{
+		font-size: 9px;
+		margin-top: 9px;
+		right: 10px;
+		position: relative;
+	}
+	.fmatch_info h3 {
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+	.roundc_head h3
+	{
+		font-size:17px;
+	}
+	.fprofile_img
+	{
+		height:50%;
+	}
+	.fb_logo_team_logo img {
+		width:100%;
+		height:100%;
+	}
+	.fantacy_box_shad
+	{
+		margin:0px;
+	}
+	.team_name h3 {
+	  font-size:11px;
+	}
+	.fantacy_head h2 {
+		font-size: 24px;
+		color: #000;
+		display: none;
+	}
+	.fantacy_logo img
+	{
+		
+		height:100%;
+	}
+	.round_details h3
+	{
+		    font-size: 18px;
+			width: 100%;
+	}
+	.fantacy_play button
+	{
+		width:100%;
+		font-size: 13px;
+	}
+	.fantacy_time table tr td {
+		font-size: 10px;
+	}
+	.fantacy_time table tr:nth-child(2) td span {
+		padding:8px;
+	}
+	.rank_dt
+	{
+		right:0%;
+	}
+	.rank_dt h2 {
+		font-size:21px;
+	}
+	.rank_dt h3
+	{
+		font-size:18px;
+	}
+	.fantacy_matdt
+	{
+		margin:0px;
+	}
+	.fty-header {
+		background:#fff;
+	}
+	.fantacy_menu
+	{
+		
+		width: 100%;
+	}
+	.fantacy_menu  .pull-right
+	{
+		float:left !important;
+	}
+	.fantacy_menu .navbar-toggle
+	{
+		float:left;
+	}
+	.rank_player_list table tr td {
+    
+    font-size: 12px;
+	}
+	.qstn
+	{
+		width:70px;
+		height:70px;
+	}
+	.menu_bar
+	{
+		    display: block;
+			font-size: 41px;
+			padding-left: 16px;
+	}
+	.fantacy_htab
+	{
+		display:none;
+	}
+	.fantacy_htab .nav > li 
+	{
+		width:100%;
+		margin:0px;
+		border-radius: 0px;
+	}
+	.fantacy_htab .nav-tabs {
+		margin-bottom:25px;
+	}
+	.frmenu
+	{
+		width:100%;
+	}
+    .fantacy_cc
+	{
+		width:100%;
+	}	
+	
+	
+	.fantacy_statcc
+	{
+		width:100%;
+		
+	}
+	.bt_tlogo {
+			height:100%;
+		    margin-top:6px;
+		}
+		
+		.container
+		{
+			width:100%;
+			padding-left:0px;
+			padding-right:0px;
+		}
+		.fixrs_team_arrow img
+		{
+			width:40px;
+		}
+		
+		.fixrs_qstnb_c
+		{
+			padding-left: 0px;
+			background:none;
+		}
+		.left_arrow_pad {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.main_row_m
+		{
+			width:100%;
+		}
+		.fixrs_qstnb h4 img
+		{
+			width:57px;
+		}
+		.dbt_name h4
+		{
+			font-size:17px;
+			top:0px;
+		}
+		.fixtrs_tlogom
+		{
+			padding-left:0px;
+			padding-right:0px;
+		}
+		.qst_bg
+		{
+			background:#bbb;
+		}
+		.fixtrs_tlogom
+		{
+		
+		}
+		.left_arrow_pad,.fixrs_qstnb_c
+		{
+			display:none;
+		}
+	    .fantacy_cc
+		{
+			width:100%;
+		}
+		.fixture_rb
+		{
+		 padding: 10px;
+		}		
+		
+		.cly_left_team h4, .cly_right_team h4 {
+			font-size: 14px;
+			font-weight: bold;
+			width: 100%;
+			text-align: center;
+		}
+		.cly_left_team, .cly_right_team {
+			height: 100%;
+			display: block;
+		}
+		.tournament_head h3,
+		.fansts_head h3 
+		{
+			font-size:21px;
+		}
+		.stats_head h3 {
+			font-size:20px;
+		}
+		.sts_tpl tr td:nth-child(2) {
+			width: 8%;
+			display:none;
+		}
+		.sts_tpl tr td:nth-child(3) {
+			width: 44%;
+			text-align: left;
+		}
+		.sts_tpl tr td {
+			font-size:12px;
+		}
+		.fs_padd_c {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.round_details h3 {
+			width:100%;
+		}
+	
+}
+@media screen and (min-width:650px) and (max-width:1023px)
+{
+    .fantacy_cc
+	{
+		width:100%;
+	}
+   .bt_team_arrow img {
+    height: 100%;
+	width:100%;
+	}
+	.bt_team_details
+	{
+		width:100%;
+		height:100%;
+	}
+	.bt_tlogo
+	{
+		height:100%;
+	}
+	.bt_tlogo img {
+		height: 100%;
+	}
+	.fantacy_statcc
+	{
+		width:100%;
+		
+	}
+	.bt_tlogo {
+			height:100%;
+		    margin-top:6px;
+		}
+		
+		.container
+		{
+			width:100%;
+			padding-left:0px;
+			padding-right:0px;
+		}
+		.fixrs_team_arrow img
+		{
+			width:40px;
+		}
+		
+		.fixrs_qstnb_c
+		{
+			padding-left: 0px;
+			background:none;
+		}
+		.left_arrow_pad {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.main_row_m
+		{
+			width:100%;
+		}
+		.fixrs_qstnb h4 img
+		{
+			width:57px;
+		}
+		.dbt_name h4
+		{
+			font-size:17px;
+			top:0px;
+		}
+		.fixtrs_tlogom
+		{
+			padding-left:0px;
+			padding-right:0px;
+		}
+		.qst_bg
+		{
+			background:#bbb;
+		}
+		.fixtrs_tlogom
+		{
+		
+		}
+		.left_arrow_pad,.fixrs_qstnb_c
+		{
+			display:none;
+		}
+		.fantacy_menu {
+			top: 0px;
+			position: relative;
+			left: 0px;
+		}
+		.fantacy_htab .nav > li > a {
+			    padding: 12px 10px;
+		}
+		.fantacy_head
+		{
+			display:none;
+		}
+		.fantacy_menu {
+			    top: 0px !important;
+				position: relative;
+				float: left !important;
+				left: 7px !important;
+				width: 100%;
+		}
+		.fantacy_cc
+		{
+			width:100%;
+		}
+		.cly_left_team h4, .cly_right_team h4 {
+			font-size: 14px;
+			font-weight: bold;
+			width: 100%;
+			text-align: center;
+		}
+		.cly_left_team, .cly_right_team {
+			height: 100%;
+			display: block;
+		}
+		.tournament_head h3,
+		.fansts_head h3 
+		{
+			font-size:21px;
+		}
+		.stats_head h3 {
+			font-size:20px;
+		}
+		.fs_padd_c {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.round_details h3 {
+			width:100%;
+		}
+	
+
+}
